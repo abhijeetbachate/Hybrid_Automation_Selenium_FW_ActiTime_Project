@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import com.library.Library;
 import com.testbase.TestBase;
 
-public class TestCases extends TestBase{
+public class TestCases extends Library{
 	
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void createcustomerAtestcase() throws Throwable
 	{
 		logintestcase();
@@ -51,9 +51,8 @@ public class TestCases extends TestBase{
 		l.info("The Logout TestCase Executed");
 		l.info("================Test Case 3 Executed====================");
 	}
-	*/
 	
-	@Test
+	/*@Test
 	public void loginTC()
 	{
 		//driver.findElement(By.xpath("//*[@id='loginFormContainer']/tbody/tr[1]/td/table/tbody/tr[1]/td[2]/input")).sendKeys("admin");
@@ -63,6 +62,6 @@ public class TestCases extends TestBase{
 		l.info("Password is Entered");
 		driver.findElement(By.xpath("//*[@id='loginButton']")).click();
 		l.info("Clicked on Login Button");
-	}
+	}*/
 	
 }
