@@ -13,6 +13,7 @@ public class TestCases extends Library{
 	@Test(priority=1)
 	public void createcustomerAtestcase() throws Throwable
 	{
+		
 		logintestcase();
 		l.info("The Login TestCase Executed");
 		createcustomerA();
